@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="ressources/Produits/style_fichier.css" />
+
+
+  </head>
+
+  <body>
+    <div id="header_box">
+        <a href="accueil.html">
+            <h1 class="header_title">ACCUEIL</h1>
+        </a>
+        <a href="produits.html">
+            <h1 class="header_title">PRODUITS</h1>
+        </a>
+        <a href="esport_main.html">
+            <h1 class="header_title">GAMING</h1>
+        </a>
+        <a href="sport_main.html">
+            <h1 class="header_title">SPORT</h1>
+        </a>
+    </div>
+    <h1> Nos Produits </h1>
+    <div id="searchelementdiv">
+        <input class="searchelement" id="element_to_add">
+        <button class="searchelement" id="element_to_add_button">Ajouter</button>
+    </div>
+
+    <div id="presentation_produits">
+        <div class="carousel" id="carouseltoadd">
+            <div class="carouselitem carouselitem--visible">
+                <img src="ressources/Produits/images/mule.png" />
+            </div>
+            <div class="carouselitem">
+                <img src="ressources/Produits/images/mango.png" />
+            </div>
+            <div class="carouselitem">
+                <img src="ressources/Produits/images/mixed.png" />
+            </div>
+
+            <div class="carouselactions">
+                <button id="carouselbutton--prev" aria-label="Previous slide" onclick="moveToPrevSlide()">◄</button>
+                <button id="carousel__button--next" aria-label="Next slide" onclick="moveToNextSlide()">►</button>
+            </div>
+        </div>
+
+        <h1> Nouveautés </h1>
+        <div id = "card_container">
+            <div class = "desc">
+                <div class="card">
+                    <img src="ressources/Produits/images/absolutely0.png">
+                </div>
+                <div class="texte">
+                    <p> Les gens ont fait exploser notre boîte mail depuis des années à force de demander un Monster sans calorie. On l’a fait et c’est pas n’importe quel soda mon pote !
+
+                        Faire une boisson sans calorie et zéro sucre, assez bonne pour mériter le M de Monster n’est pas si facile.
+                        Finalement avec un savant dosage de notre mixture monstrueuse, avec le bon édulcorant et après des centaines de testes foirés, on a réussi ! Monster Zero Sugar, avec ses vitamines B t’aide à réduire la fatigue et te motive pour bosser plus (pour t’amuser plus, surtout), bref de quoi te sentir vraiment bien !</p>
+                </div>
+            </div>
+
+            <div class = "desc">
+                <div class="card">
+                    <img src="ressources/Produits/images/ultrablue.png">
+                </div>
+                <div class="texte">
+                    <p>Certaines personnes sont impossibles à satisfaire. Dès qu'ils obtiennent ce qu'ils pensaient vouloir, ils en veulent toujours plus. Nos coureurs et les Monster Girls ne sont pas différents, ils ont laissé quelques indices récemment. Ils nous ont demandé une nouvelle boisson Monster. Un peu moins sucrée, au goût plus léger, sans sucre, mais avec une pleine charge de notre mélange d'énergie Monster. Bien sûr, le blanc est le nouveau noir. Nous sommes allés jusqu'au bout : Monster Energy Ultra Blue.</p>
+                </div>
+            </div>
+
+            <div class = "desc">
+                <div class="card">
+                    <img src="ressources/Produits/images/assault.png">
+                </div>
+                <div class="texte">
+                    <p>Chez Monster, on ne fait pas trop dans la politique.  Nous ne sommes ni pour, ni contre ou même à savoir si elle est bonne ou mauvaise!  Nous sommes plus du genre à promouvoir la guerre avec les géants qui dominent et dictent les règles de l’industrie du breuvage.  Laissons la politique aux politiciens et concentrons-nous sur ce que nous faisons de mieux, c’est-à-dire; créer les boissons énergétiques les plus diabolique sur le marché.        Déclarez la guerre à l’ordinaire, sautez sur un Monster Assault et Viva la revolution !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ressources/Produits/app.js"></script>
+  </body>
+</html>
